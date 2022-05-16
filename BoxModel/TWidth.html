@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>B-M</title>
+    <style>
+        div {
+            width: 420px;
+            padding: 10px;
+            border: 5px solid turquoise;
+            /* 420px(width) + 20px[padding(10left + 10right)] + (5+5)px(border) = 450px */
+        }
+        p {
+            width: 400px;
+            padding: 15px;
+            border: 5px solid lightgreen;
+            outline: 1px solid greenyellow;
+            outline-offset: 9px;
+            /* 400px(width) + (15 + 15)px(padding) + (5+5)px(border) 1px(outline) + 9px(outline-offset) = 450px*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculate the total width</h1>
+    <img src="flower.png" alt="flower" width="450" height="270">
+    <div>The picture above is 450px wide. The total width of this element is also 450px</div>
+    <p>and total width of this element is also 450px(using outline)</p>
+</body>
+</html>
