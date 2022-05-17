@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Striped Tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: greenyellow;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(240, 240, 240);
+        }
+
+        caption {
+            padding-bottom: 10px;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Striped Tables</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Pedri</td>
+            <td>Gonzalis</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Johan</td>
+            <td>Krouf</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Gavi</td>
+            <td>Pablo</td>
+            <td>18</td>
+        </tr>
+    </table>
+</body>
+</html>
