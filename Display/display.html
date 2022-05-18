@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display & visiblity</title>
+    <style>
+        .imgbox {
+            float: left;
+            text-align: center;
+            width: 250px;
+            border: 1px solid #aaa;
+            margin: 4px;
+            padding: 6px;
+            border-radius: 2px;
+            background-color: #ccc;
+        }
+        button {
+            padding: 8px;
+            width: 100%;
+            font-size: 18px;
+            color: white;
+            margin: 6px 0 6px 0;
+            background-color: rgb(0, 164, 0);
+            border: 0px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(0, 131, 0);
+        }
+    </style>
+</head>
+<body>
+    <h2>Difference between display:none and visiblity:hidden</h2>
+    <p><strong>visiblity:hiden</strong> => hides the element, but it still takes up space in the layout.</p>
+    <p><strong>display:none</strong> => removes the element from the document. It does not take up any space.</p>
+    <div class="imgbox" id="imgbox1">Box 1<br>
+        <img src="terre.jpg" alt="Italy" style="width: 100%;">
+        <button onclick="removeElement()">Remove</button>
+    </div>
+    <div class="imgbox" id="imgbox2">Box 2<br>
+        <img src="forest.jpg" alt="Forest" style="width: 100%;">
+        <button onclick="changeVisiblity()">Hide</button>
+    </div>
+    <div class="imgbox">Box 3<br>
+        <img src="lights.jpg" alt="Lights" style="width: 100%;">
+        <button onclick="resetElement()">Reset All</button>
+    </div>
+
+    <script>
+        function removeElement() {
+            document.getElementById("imgbox1").style.display = "none";
+        }
+        function changeVisiblity() {
+            document.getElementById("imgbox2").style.visibility = "hidden";
+        }
+        function resetElement() {
+            document.getElementById("imgbox1").style.display = "block";
+            document.getElementById("imgbox2").style.visibility = "visible";
+        }
+    </script>
+</body>
+</html>
