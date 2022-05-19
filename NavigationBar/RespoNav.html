@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive Navbar</title>
+    <style>
+        body {
+            font-size: 20px;
+            margin: 0;
+        }
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 20%;
+            background-color: #e1e1e1;
+        }
+        ul.navbar li a {
+            display: block;
+            color: black;
+            padding: 8px 20px;
+            text-decoration: none;
+        }
+        ul.navbar li a.active {
+            background-color: limegreen;
+            color: #fff;
+        }
+        ul.navbar li a:hover:not(.active) {
+            background-color: #555;
+            color: #fff;
+        }
+        div.contant {
+            margin-left: 20%;
+            padding: 16px;
+            height: 1000px;
+        }
+        @media (max-width: 900px) {
+            ul.navbar {
+                position: absolute;
+                width: 100%;
+                height: auto;
+            }
+            ul.navbar li a {
+                float: left;
+                padding: 15px;
+            }
+            div.contant {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+        }
+        @media (max-width: 600px) {
+            ul.navbar li a {
+                text-align: center;
+                float: none;
+            }
+            div.contant {
+                margin-top: 195px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <div class="contant">
+        <h2>Responsive Navbar</h2>
+        <p>This is jodjso cowdpcld ksjcpfiejc lspfudmcp jisdmnso cldksw hekncbso lkcjdkdos mdkos </p>
+        <p>This is jodjso cowdpcld ksjcpfiejc lspfudmcp jisdmnso cldksw hekncbso lkcjdkdos mdkos </p>
+        <p>This is jodjso cowdpcld ksjcpfiejc lspfudmcp jisdmnso cldksw hekncbso lkcjdkdos mdkos </p>
+        <p>This is jodjso cowdpcld ksjcpfiejc lspfudmcp jisdmnso cldksw hekncbso lkcjdkdos mdkos </p>
+    </div>
+</body>
+</html>
