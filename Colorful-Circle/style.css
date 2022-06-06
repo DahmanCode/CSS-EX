@@ -1,0 +1,19 @@
+body
+{
+  background-color: #e4516e;
+}
+
+.circle
+{
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  border-radius: 50%;
+  border: 150px solid transparent;
+  border-top-color: #51b5a9;
+  border-left-color: #f7f3d6;
+  border-right-color: #fade8b;
+  transform: rotate(-45deg)
+}
