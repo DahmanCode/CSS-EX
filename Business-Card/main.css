@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Sura&family=Galdeano&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: #C8C8C7;
+}
+
+.container
+{
+    position: relative;
+}
+
+.container .card
+{
+    position: relative;
+    width: 320px;
+    height: 500px;
+    background: #B99691;
+    border-radius: 35px;
+}
+
+.container .card::after
+{
+    content: "";
+    position: absolute;
+    width: 310px;
+    height: 490px;
+    background: #ddd;
+    top: 15px;
+    left: 12px;    
+    border-radius: 40px;
+    z-index: -1;
+    border: 2.8px solid #B99691;
+}
+
+.container .card .imgBox
+{
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    right: 90px;
+}
+
+.container .card .imgBox img
+{
+    width: 150px;
+}
+
+.container .card .content
+{
+    position: absolute;
+    bottom: 180px;
+    right: 15px;
+    width: 290px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.container .card .content .heading
+{
+    padding-bottom: 25px;
+}
+
+.container .card .content .heading h2
+{
+    font-size: 35px;
+    font-family: 'Lobster Two', cursive;
+    color: #3C241F;
+    letter-spacing: 3px;
+}
+
+.container .card .content .heading h3
+{
+    font-family: 'Galdeano', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    color: #261007;
+}
+
+.container .card .content .text p
+{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #261007;
+    font-family: 'Sura', sserif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    line-height: 28px;
+}
+
+.container .card .content .stars
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.container .card .content .stars i
+{
+    text-align: center;
+    line-height: 26px;
+    font-size: 30px;
+    padding: 8px;
+    color: rgb(255, 191, 0);
+    cursor: pointer;
+}
