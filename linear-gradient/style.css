@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background:   #b3ffb3;
+  }
+  
+  .leaf {
+   border: 1px solid lightgreen;
+   width: 200px;
+   height: 200px;
+   border-radius: 0 100%;
+   background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  }
