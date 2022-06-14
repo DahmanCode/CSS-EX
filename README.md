@@ -6,7 +6,7 @@ CSS Exercises and same-time CSS Tutorial:
 
 ![fi](https://user-images.githubusercontent.com/94912743/173444840-1b6fb0e9-542e-4525-b7c5-0653a19ba4b4.gif)
 
-                                                  🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹                                                
+                                         🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹                                                
 
 ## 🔗[BoxModel](https://github.com/DahmanCode/CSS-EX/blob/main/BoxModel/TWidth.html) :
 🔰 The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model: 
@@ -17,5 +17,5 @@ CSS Exercises and same-time CSS Tutorial:
 
 ![pe](https://user-images.githubusercontent.com/94912743/173544014-49c1d12b-cfd1-4604-bb32-c4c3fc611448.PNG)
 
-                                                  🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹
+                                         🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹
                                                   
