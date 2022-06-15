@@ -28,3 +28,15 @@ Here you will find an example of a Responsive table:
 
                          🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹
                          
+## 🔗[Display](https://github.com/DahmanCode/CSS-EX/blob/main/Display/display.html)
+🔰 In this exercise, I learned the difference between ```display:none``` & ```visiblity:hiden``` ,I used a some of javascript to help me explain:
+
+```css
+display:none;  /* removes the element from the document. It does not take up any space. */
+```
+
+```css
+visiblity:hiden;  /* hides the element, but it still takes up space in the layout. */
+```
+                         
+
